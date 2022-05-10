@@ -31,6 +31,28 @@ ul:nth-of-type(1) li:nth-child(-n+3){
     color: blue;
 }
 
-ul:nth-of-type(1) li:{
+li.java{
+    background-color: pink;
+}
+
+a:nth-of-type(1):hover{
+    background-color: orange;
+}
+
+a:nth-of-type(2):hover{
+    background-color: greenyellow;
+}
+
+a:nth-of-type(3):hover{
     background-color: black;
+    color: white;
+}
+
+a:nth-of-type(4):hover{
+    background-color: yellow;
+}
+
+a:nth-of-type(5):hover{
+    background-color: green;
+    color: white;
 }
