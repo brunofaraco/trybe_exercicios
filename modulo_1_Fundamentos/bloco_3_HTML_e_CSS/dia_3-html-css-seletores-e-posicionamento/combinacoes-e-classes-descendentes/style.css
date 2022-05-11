@@ -35,24 +35,29 @@ li.java{
     background-color: pink;
 }
 
-a:nth-of-type(1):hover{
-    background-color: orange;
+#stackoverflow:hover{
+    font-weight: bold;
+    color: orange;
 }
 
-a:nth-of-type(2):hover{
-    background-color: greenyellow;
-}
-
-a:nth-of-type(3):hover{
+#wschools:hover{
+    font-weight: bold;
+    color: greenyellow;
     background-color: black;
-    color: white;
 }
 
-a:nth-of-type(4):hover{
-    background-color: yellow;
+#mdnwebdocs:hover{
+    font-weight: bold;
+    color: black;
 }
 
-a:nth-of-type(5):hover{
-    background-color: green;
-    color: white;
+#devdocs:hover{
+    font-weight: bold;
+    color: yellow;
+    background-color: black;
+}
+
+#trybe:hover{
+    font-weight: bold;
+    color: green;
 }
