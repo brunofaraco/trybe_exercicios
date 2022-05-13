@@ -61,3 +61,24 @@ for (let index5 = 0; index5 < numbers.length; index5 += 1) {
 
 console.log('Resposta do exercício 5:', highestNumber);
 console.log('');
+
+// exercício 6
+
+let oddCounter = 0
+let oddNumbers = []
+let haveOddNumber = 'negative';
+
+for (let index6 = 0; index6 < numbers.length; index6 += 1) {
+    if (numbers[index6] % 2 !== 0 ) {
+        oddCounter +=1;
+        oddNumbers.push(numbers[index6]);
+        haveOddNumber = 'positve';
+    };
+};
+
+if (haveOddNumber === 'negative') {
+    console.log('Nenhum valor ímpar encontrado.');
+} else {
+    console.log('Resposta do exercício 6: Existem ' + oddCounter + ' números ímpares no Array e eles são:', oddNumbers + '.');
+}
+console.log('');
