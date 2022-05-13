@@ -1,11 +1,16 @@
 const angulo1 = 90;
-const angulo2 = 20;
-const angulo3 = 70;
+const angulo2 = -10;
+const angulo3 = 100;
 
-if (angulo1 + angulo2 + angulo3 === 180){
-    console.log(true);
-} else if (angulo1 + angulo2 + angulo3 > 180 || angulo1 + angulo2 + angulo3 < 180) {
-    console.log(false);
+let somaDosAngulos = angulo1 + angulo2 + angulo3;
+let angulosSaoPositivos = angulo1 > 0 && angulo2 > 0 && angulo3 > 0;
+
+if (angulosSaoPositivos === true) {
+    if (somaDosAngulos === 180) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
 } else {
-    console.log('error 404');
-};
+    console.log('error 404: ângulo inválido');
+}
