@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trybe Trip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="trip-header">
+        <h1>Header da página</h1>
+    </header>
+
+    <form action="" method="get" class="trip-form">
+
+        <label for="nome-completo">Nome:
+            <input type="text" name="complete-name" id="nome-completo" placeholder="Insira seu nome completo aqui"
+                minlength="10" maxlength="40" required>
+        </label>
+
+        <br><br>
+
+        <label for="email">E-mail:
+            <input type="email" name="email" id="email" placeholder="Insira seu e-mail aqui" minlength="10"
+                maxlength="40" required>
+        </label>
+
+        <br><br>
+
+        <fieldset >
+            <legend>Lugar Preferido:</legend>
+            <label for="favorite-place">Cidade</label><input type="radio" name="favorite-place" id="city">
+            <label for="favorite-place">Campo</label><input type="radio" name="favorite-place" id="field">
+            <label for="favorite-place">Praia</label><input type="radio" name="favorite-place" id="beach">
+            <label for="favorite-place">Montanha</label><input type="radio" name="favorite-place" id="mountains">
+        </fieldset>
+
+        <br>
+
+        <label for="botao-enviar">
+            <button type="submit" name="send-button" id="botao-enviar">Enviar</button>
+        </label>
+
+        <label for="botao-resetar">
+            <button type="reset" name="reset-button" id="botao-resetar">Limpar</button>
+        </label>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
