@@ -27,6 +27,27 @@ body {
     margin: 40px auto;
 }
 
+.line-content {
+    margin-bottom: 20px;
+}
+
+.line-content input[type='text'] {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    width: 90%;
+    padding: 10px;
+}
+
+.line-content input[type='email'] {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    width: 90%;
+    padding: 10px;
+}
+
+
 .fieldset-style {
     width: fit-content;
 }

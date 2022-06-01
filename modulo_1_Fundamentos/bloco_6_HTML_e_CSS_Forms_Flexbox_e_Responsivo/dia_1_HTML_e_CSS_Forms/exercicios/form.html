@@ -14,13 +14,12 @@
         <h1>Header da página</h1>
     </header>
 
-    <form action="" method="get" class="trip-form">
+    <form action="" method="get" class="trip-form line-content">
 
         <label for="nome-completo">Nome:
             <input type="text" name="complete-name" id="nome-completo" placeholder="Insira seu nome completo aqui"
                 minlength="10" maxlength="40" required>
         </label>
-
         <br><br>
 
         <label for="email">E-mail:
@@ -32,10 +31,10 @@
 
         <fieldset class="fieldset-style">
             <legend>Lugar Preferido:</legend>
-            <label for="favorite-place">Cidade</label><input type="radio" name="favorite-place" id="city">
-            <label for="favorite-place">Campo</label><input type="radio" name="favorite-place" id="field">
-            <label for="favorite-place">Praia</label><input type="radio" name="favorite-place" id="beach">
-            <label for="favorite-place">Montanha</label><input type="radio" name="favorite-place" id="mountains">
+            <label for="city">Cidade</label><input type="radio" name="favorite-place" id="city" value="city">
+            <label for="field">Campo</label><input type="radio" name="favorite-place" id="field" value="field">
+            <label for="beach">Praia</label><input type="radio" name="favorite-place" id="beach" value="beach">
+            <label for="mountains">Montanha</label><input type="radio" name="favorite-place" id="mountains" value="mountains">
         </fieldset>
 
         <br>
@@ -50,7 +49,20 @@
             <input type="date" name="date" id="best-date">
         </label>
 
+        <br><br>
+
+        <label for="trybe-news">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+            <input type="checkbox" name="trybe-news" id="trybe-news">
+        </label>
+
         <br>
+
+        <label for="share-images">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos
+            futuros.
+            <input type="checkbox" name="share-images" id="share-images">
+        </label>
+
+        <br><br>
 
         <label for="botao-enviar">
             <button type="submit" name="send-button" id="botao-enviar">Enviar</button>
