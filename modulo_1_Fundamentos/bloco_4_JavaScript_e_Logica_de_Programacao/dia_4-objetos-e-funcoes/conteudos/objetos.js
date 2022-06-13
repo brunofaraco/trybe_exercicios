@@ -1,0 +1,18 @@
+let player = {
+    name: 'Marta',
+    lastName: 'Silva',
+    age: 34,
+    medals: {
+        golden: 2,
+        silver: 3 }
+};
+
+console.log(player['name']);
+console.log(player['lastName']);
+console.log(player['age']);
+
+player['bestInWorld'] = [2006, 2007, 2008, 2009, 2010, 2018]
+
+console.log('A jogadora Marta Silva foi eleita a melhor do mundo por ' + player.bestInWorld.length + ' vezes.');
+
+console.log('A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' de prata.');
