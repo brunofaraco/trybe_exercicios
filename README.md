@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Eduardo Alexandre](https://www.linkedin.com/in/eduardo-alexandre025)_ durante o curso na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Bruno C. Faraco](https://www.linkedin.com/in/bruno-faraco-b87534238/)_ durante o curso na [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
@@ -28,7 +28,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML Semântico_
-- [ ] 3-5: _[Projeto - Lessons Leanerd](https://dualexandre.github.io/projetos/lessons-learned/index.html)_
+- [ ] 3-5: _[Projeto - Lessons Learned]()_
 
 ##### Bloco 4: Introdução à JavaScript e Lógica de Programação ✔️
 
