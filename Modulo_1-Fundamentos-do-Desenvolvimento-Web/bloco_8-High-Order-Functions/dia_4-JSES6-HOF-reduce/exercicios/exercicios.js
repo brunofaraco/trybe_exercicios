@@ -90,3 +90,15 @@ const books = [
 
 
 // console.log(averageAge(books));
+
+// 🚀 4- Encontre o livro com o maior nome.
+
+// const longestNamedBook = (books) => {
+//     return books.reduce((acc, book) => {
+//         if (book.name.length > acc.name.length) {
+//             return book
+//         } return acc
+//     })
+// }
+
+// console.log(longestNamedBook(books));
