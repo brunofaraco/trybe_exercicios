@@ -93,12 +93,21 @@ const books = [
 
 // 🚀 4- Encontre o livro com o maior nome.
 
-// const longestNamedBook = (books) => {
-//     return books.reduce((acc, book) => {
-//         if (book.name.length > acc.name.length) {
-//             return book
-//         } return acc
-//     })
-// }
+// const longestNamedBook = (books) => books.reduce((acc, book) => {
+//     if (book.name.length > acc.name.length) { return book }
+//     return acc
+// })
 
 // console.log(longestNamedBook(books));
+
+// 🚀 5- Dada o array de nomes, retorne a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.
+
+const names = [
+    'Aanemarie', 'Adervandes', 'Akifusa',
+    'Abegildo', 'Adicellia', 'Aladonata',
+    'Abeladerco', 'Adieidy', 'Alarucha',
+];
+
+const containsA = (names) => names.reduce((sum, name) => sum + name.split('').reduce((acc, letter) => (letter === 'a' || letter === 'A') ? acc + 1 : acc, 0), 0)
+
+console.log(containsA(names));
