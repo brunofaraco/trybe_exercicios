@@ -10,7 +10,10 @@ const arrays = [
 
 const flatten = (arr) => arr.reduce((acc, crr) => acc.concat(crr), [])
 
-console.log(flatten(arrays));
+console.log(`1 - Dada uma matriz, transforme em um array:
+
+'${flatten(arrays)}'
+`);
 
 const books = [
     {
@@ -82,14 +85,20 @@ const reduceNames = (books) => {
     return `${allNames.substring(0, allNames.length - 2)}.`
 }
 
-console.log(reduceNames(books));
+console.log(`2 - Crie uma string com os nomes de todas as pessoas autoras.:
+
+${reduceNames(books)}
+`);
 
 // 🚀 3- Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
 
 const averageAge = (books) => books.reduce((acc, book) => book.releaseYear - book.author.birthYear + acc, 0) / books.length;
 
 
-console.log(averageAge(books));
+console.log(`3- Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.:
+
+${averageAge(books)}
+`);
 
 // 🚀 4- Encontre o livro com o maior nome.
 
@@ -98,7 +107,10 @@ const longestNamedBook = (books) => books.reduce((acc, book) => {
     return acc
 })
 
-console.log(longestNamedBook(books));
+console.log(`4- Encontre o livro com o maior nome.:
+
+${longestNamedBook(books)}
+`);
 
 // 🚀 5- Dada o array de nomes, retorne a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.
 
@@ -110,7 +122,10 @@ const names = [
 
 const containsA = (names) => names.reduce((sum, name) => sum + name.split('').reduce((acc, letter) => (letter === 'a' || letter === 'A') ? acc + 1 : acc, 0), 0)
 
-console.log(containsA(names));
+console.log(`5- Dada o array de nomes, retorne a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.:
+
+${containsA(names)}
+`);
 
 // 🚀 6.**- Agora vamos criar um novo array de objetos a partir das informações abaixo, onde cada objeto terá o formato { name: nome do aluno, average: media das notas }. Para isso vamos assumir que a posição 0 de notas refere-se ao aluno na posição 0 de alunos, aqui além de reduce será necessário utilizar também a função map. Dica: Você pode acessar o index do array dentro de map, e você pode ver o objeto esperado na constante expected.
 
@@ -122,4 +137,4 @@ const studentAverage = (students, grades) => students.map((student, index) => ({
     average: grades[index].reduce((acc, crr) => acc + crr, 0) / grades[index].length,
 }))
 
-console.log(studentAverage(students, grades));
+console.log(`6- Agora vamos criar um novo array de objetos a partir das informações abaixo, onde cada objeto terá o formato { name: nome do aluno, average: media das notas }. Para isso vamos assumir que a posição 0 de notas refere-se ao aluno na posição 0 de alunos, aqui além de reduce será necessário utilizar também a função map.:`, studentAverage(students, grades));
