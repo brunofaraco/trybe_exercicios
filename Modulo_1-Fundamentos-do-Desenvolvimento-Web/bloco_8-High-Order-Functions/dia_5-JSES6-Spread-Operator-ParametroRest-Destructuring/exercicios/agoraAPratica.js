@@ -118,8 +118,26 @@
 
 // 8 - Escreva uma função greet que, dado o nome de uma pessoa, retorna uma mensagem de cumprimento:
 
-const greet = (name = 'Anônimo', greet = 'Hi') => `${greet} ${name}`
+// const greet = (name = 'Anônimo', greet = 'Hi') => `${greet} ${name}`
 
-console.log(greet('John')) // 'Hi John'
-console.log(greet('John', 'Good morning')) // 'Good morning John'
-console.log(greet('Isabela', 'Oi')) // 'Oi Isabela'
+// console.log(greet('John')) // 'Hi John'
+// console.log(greet('John', 'Good morning')) // 'Good morning John'
+// console.log(greet('Isabela', 'Oi')) // 'Oi Isabela'
+
+// 9 - Existe um objeto yearSeasons que representam as estações do ano. Cada estação é uma chave deste objeto e o valor de cada chave é um array de strings, representando os meses daquela estação. A partir deste objeto, desestruture as estações do ano e espalhe-as em um array de meses do ano.
+
+
+// const yearSeasons = {
+//     spring: ['March', 'April', 'May'],
+//     summer: ['June', 'July', 'August'],
+//     autumn: ['September', 'October', 'November'],
+//     winter: ['December', 'January', 'February'],
+// };
+
+// const monthsOfTheYear = ({spring, summer, autumn, winter}) => [...spring, ...summer, ...autumn, ...winter]
+
+// const {spring, summer, autumn, winter} = yearSeasons
+// const months = [...spring, ...summer, ...autumn, ...winter]
+
+// console.log(monthsOfTheYear(yearSeasons));
+// console.log(months);
