@@ -79,3 +79,41 @@
 // const swap = ([one, two, three]) => [three, two, one]
 
 // console.log(swap(myList));
+
+// 6 - Suponha que você esteja lidando com carros e, da forma como o problema lhe foi entregue, cada carro é modelado como um array. Porém, essa modelagem está baixo nível. Cria uma função toObject que, dada uma lista, retorna um objeto representando o carro:
+
+// const palio = ['Palio', 'Fiat', 2019];
+// const shelbyCobra = ['Shelby Cobra', 'Ford', 1963];
+// const chiron = ['Chiron', 'Bugatti', 2016];
+
+// const toObject = ([name, brand, releaseYear]) => ( { name, brand, releaseYear, } )
+
+// console.log(toObject(palio));
+
+// 7 - Escreva uma função shipLength que, dado um objeto representando um navio, retorna o comprimento dele, mostrando também a devida unidade de comprimento:
+
+// const ships = [
+//     {
+//         name: 'Titanic',
+//         length: 269.1,
+//         measurementUnit: 'meters',
+//     },
+//     {
+//         name: 'Queen Mary 2',
+//         length: 1132,
+//         measurementUnit: 'feet',
+//     },
+//     {
+//         name: 'Yamato',
+//         length: 256,
+//         measurementUnit: 'meters',
+//     },
+// ];
+
+// const shipLength = () => {
+
+// }
+
+// console.log(shipLength(ships[0])); // 'Titanic is 269.1 meters long'
+// console.log(shipLength(ships[1])); // 'Queen Mary 2 is 1132 feet long'
+// console.log(shipLength(ships[2])); // 'Yamato is 256 meters long'
