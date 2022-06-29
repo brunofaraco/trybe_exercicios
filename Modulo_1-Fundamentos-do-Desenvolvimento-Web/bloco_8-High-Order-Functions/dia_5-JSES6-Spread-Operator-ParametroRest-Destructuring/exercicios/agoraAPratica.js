@@ -40,34 +40,42 @@
 
 // 🚀 4 - Escreva uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20:
 
-const people = [
-    {
-        name: 'Nicole',
-        bornIn: 1992,
-        nationality: 'Australian',
-    },
-    {
-        name: 'Harry',
-        bornIn: 2008,
-        nationality: 'Australian',
-    },
-    {
-        name: 'Toby',
-        bornIn: 1901,
-        nationality: 'Australian',
-    },
-    {
-        name: 'Frida',
-        bornIn: 1960,
-        nationality: 'Dannish',
-    },
-    {
-        name: 'Fernando',
-        bornIn: 2001,
-        nationality: 'Brazilian',
-    },
-];
+// const people = [
+//     {
+//         name: 'Nicole',
+//         bornIn: 1992,
+//         nationality: 'Australian',
+//     },
+//     {
+//         name: 'Harry',
+//         bornIn: 2008,
+//         nationality: 'Australian',
+//     },
+//     {
+//         name: 'Toby',
+//         bornIn: 1901,
+//         nationality: 'Australian',
+//     },
+//     {
+//         name: 'Frida',
+//         bornIn: 1960,
+//         nationality: 'Dannish',
+//     },
+//     {
+//         name: 'Fernando',
+//         bornIn: 2001,
+//         nationality: 'Brazilian',
+//     },
+// ];
 
-const filterErrada = (people) => people.filter((person) => person.bornIn >= 1901 && person.bornIn <= 2000 && person.nationality === 'Australian');
+// const filterPeople = (people) => people.filter(( {nationality, bornIn}) => bornIn > 1900 && bornIn < 2001 && nationality === 'Australian');
 
-console.log(filterErrada(people));
+// console.log(filterPeople(people));
+
+// 5 - Escreva a função swap, que dado um array de 3 elementos, retorna um novo array com o primeiro e terceiro elementos trocados. Detalhe: você precisa fazer essa função gastando 1 linha só:
+
+// const myList = [1, 2, 3];
+
+// const swap = ([one, two, three]) => [three, two, one]
+
+// console.log(swap(myList));
